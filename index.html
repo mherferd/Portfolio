@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio profesional de Miguel Hernández Fernández - Desarrollador Full Stack">
+    <title>Miguel Hernández | Portfolio</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="particles"></div>
+        <div class="gradient-orb"></div>
+        <div class="gradient-orb2"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Miguel Hernández Fernández</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre Mí</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#experience" class="nav-link">Experiencia</a></li>
+                <li><a href="#education" class="nav-link">Formación</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hola, soy</span>
+                        <span class="name">Miguel</span>
+                        <span class="cursor">_</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        <span class="">Desarrollador Full Stack</span>
+                        
+                    </p>
+                    <p class="hero-description">
+                        Apasionado por crear soluciones digitales funcionales, escalables y elegantes, simpre aprendiendo y adaptándome a las nuevas tecnologías.
+
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn-primary">
+                            <span>Contactar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#projects" class="btn-secondary">
+                            <span>Ver Proyectos</span>
+                            <i class="fas fa-briefcase"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <div class="editor-dots">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <div class="editor-title">portfolio.js</div>
+                        </div>
+                        <div class="editor-content">
+                            <pre><code><span class="keyword">const</span> <span class="variable">developer</span> = {
+  <span class="property">name</span>: <span class="string">"Miguel Hernández Fernández"</span>,
+  <span class="property">role</span>: <span class="string">"Full Stack Developer"</span>,
+  <span class="property">passion</span>: <span class="string">"Siempre aprender y estar actualizado"</span>,
+  <span class="property">skills</span>: [<span class="string">"JavaScript"</span>, <span class="string">"Angular"</span>, <span class="string">"Laravel"</span>, <span class="string">"SQL"</span>],
+  <span class="property">status</span>: <span class="string">"Abierto a nuevas oportunidades"</span>
+};</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre <span>Mí</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-image">
+                        <div class="avatar-container">
+                            <div class="avatar-placeholder">
+                                <img src="assets/images/img.png" width="200px" height="200px" alt="Avatar de Miguel Hernández Fernández">
+                            </div>
+                            <div class="avatar-ring"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-info">
+                        <h3>Miguel Hernández Fernández</h3>
+                        <p class="role">Desarrollador Full Stack</p>
+                        
+                        <div class="about-details">
+                            <div class="detail-item">
+                                <i class="fas fa-envelope"></i>
+                                <span>miguelhfdez@gmail.com</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-phone"></i>
+                                <span>+34 644 72 38 41</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Sevilla, España</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-language"></i>
+                                <span>Español (Nativo), Inglés (Nivel Medio)</span>
+                            </div>
+                        </div>
+                        
+                        <p class="about-description">
+                            Soy un Desarrollador Full Stack con experiencia en el diseño, desarrollo y mantenimiento de aplicaciones web y altos conocimientos en Javascript, PHP, SQL y frameworks como Angular o Laravel. Me encanta aprender nuevas tecnologías y metodologías para estar siempre actualizado.
+                        </p>
+                        
+                        <div class="about-actions">
+                            <a href="assets/CV.pdf" download class="btn-outline">
+                                <i class="fas fa-download"></i>
+                                Descargar CV
+                            </a>
+                            <a href="#contact" class="btn-primary">
+                                <i class="fas fa-comment"></i>
+                                Contactar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Mis <span>Habilidades</span></h2>
+                  <div class="section-line"></div>
+            </div>
+            
+            <div class="skills-grid-new">
+                <div class="skill-card-new">
+                    <div class="skill-header-new">
+                        <div class="skill-icon-new">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-items-new">
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">HTML5</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">CSS3</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">JavaScript</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Bootstrap</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Figma</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Python</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">TypeScript</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-card-new">
+                    <div class="skill-header-new">
+                        <div class="skill-icon-new">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skill-items-new">
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">PHP</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Java</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Angular</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Laravel</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Node.js</span>
+                        </div>
+                       
+                    </div>
+                </div>
+                
+                <div class="skill-card-new">
+                    <div class="skill-header-new">
+                        <div class="skill-icon-new">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Bases de Datos</h3>
+                    </div>
+                    <div class="skill-items-new">
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">MySQL</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">SQL</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">MongoDB</span>
+                        </div>
+                          <div class="skill-item-new">
+                            <span class="skill-name-new">Oracle</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-card-new">
+                    <div class="skill-header-new">
+                        <div class="skill-icon-new">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Herramientas</h3>
+                    </div>
+                    <div class="skill-items-new">
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Git</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">GitHub</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Docker</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Scrum</span>
+                        </div>
+                        <div class="skill-item-new">
+                            <span class="skill-name-new">Control de versiones</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Proyectos <span>Destacados</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        
+                        <img src="assets/images/Proyecto1.PNG" alt="MHFotorally">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MHFotorally</h3>
+                        <p class="project-description">
+                            Aplicación web completa para rally fotográfico con temática específica. Incluye sistema de usuarios, 
+                            gestión de eventos, galería interactiva y sistema de puntuación en tiempo real.
+                        </p>
+                        <div>
+                            <div class="project-tech">
+                                <span>Angular</span>
+                                <span>TypeScript</span> 
+                                <span>MySQL</span>                                   
+                                <span>PHP</span>
+
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mherferd/mhfotorally-front" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Código</span>
+                            </a>                          
+                        </div>
+                    </div>
+                </div>           
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                           
+                        </div>
+                        <img src="assets/images/Proyecto3.PNG" alt="Sistemas CRM">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">MHFootball</h3>
+                        <p class="project-description">
+                            Juego interactivo sobre fútbol donde los usuarios pueden poner a prueba sus conocimientos sobre jugadores, equipos, estadísticas y trayectorias profesionales.
+                        </p>
+                        <div class="project-tech">
+                                <span>React</span>
+                                <span>HTML/CSS</span>    
+                                <span>JSON</span>                                   
+                               
+                            </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mherferd/MHFootball" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Código</span>
+                            </a>
+                            <a href="https://mh-football-next.vercel.app" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                           
+                        </div>
+                        <img src="assets/images/Proyecto4.PNG" alt="Sistemas CRM">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Tienda de Ropa</h3>
+                        <p class="project-description">
+                            Tienda online de ropa no funcional, con catálogo de productos para hombres y mujeres, sistema de login de usuarios y estética moderna y atractiva.
+                        </p>
+                        <div class="project-tech">
+                                <span>Bootstrap</span>
+                                <span>HTML/CSS</span>    
+                                <span>JavaScript</span>                                   
+                               
+                            </div>
+                        <div class="project-links">
+                            <a href="https://github.com/mherferd/guijoweb-next" target="_blank" class="project-link">
+                                <i class="fab fa-github"></i>
+                                <span>Código</span>
+                            </a>
+                            <a href="https://guijoweb-next.vercel.app" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i>
+                                <span>Demo</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                           
+                        </div>
+                        <img src="assets/images/Proyecto2.PNG" alt="Sistema de Videojuegos Java">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">FIFA Manager Pro</h3>
+                        <p class="project-description">
+                            Herramienta de análisis y gestión para jugadores de FIFA Ultimate Team. Permite visualizar y administrar colecciones de cartas de jugadores, y seguir el rendimiento
+                        </p>
+                          <div>
+                            <div class="project-tech">
+                                <span>Angular</span>
+                                <span>React</span>
+                                <span>Electron</span>                                   
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experiencia <span>Profesional</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Desarrollador Full Stack</h3>
+                            <span class="timeline-date">Mar 2025 - Jun 2025</span>
+                        </div>
+                        <h4>Quantum Protech</h4>
+                        <p><br>
+                            • Desarrollo y maquetación de un proyecto completo de Angular.<br>
+• Solucionar tareas de ámbito responisvo y de accesibilidad hasta mantener una web de forma estable.<br>
+• Experiencia como líder de un equipo para trabajar de forma colaborativa.<br>
+• Desarrollo y maquetación de videojuegos en Java.<br>
+• Realizar tareas evolutivas para el avance del proyecto tanto de front como de CRM.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>IA Trainer</h3>
+                            <span class="timeline-date">Dic 2024 - Ene 2025</span>
+                        </div>
+                        <h4>Outlier AI</h4>
+                        <p>
+                            Trainer de una Inteligencia Artificial conversacional,
+                            encargándome de revisar y corregir respuestas para mejorar su precisión y relevancia.
+                        </p>
+                    </div>
+                </div>
+                
+                
+            </div>
+        </div>
+    </section>
+
+     <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Formación <span>Académica</span></h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot education-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Especializado en Ciberseguridad</h3>
+                            <span class="timeline-date">2025 - 2026</span>
+                        </div>
+                        <h4>Davante MEDAC</h4>
+                        <p>
+                            Formación especializada en ciberseguridad en entornos de las tecnologías de la información<br>
+                            • Hacking ético <br>  • Bastionado de redes  <br> • Protección de infraestructuras críticas  <br> • Análisis forense informático
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot education-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</h3>
+                            <span class="timeline-date">2023 - 2025</span>
+                        </div>
+                        <h4>IES Velázquez</h4>
+                        <p>
+                            Formación especializada en desarrollo web full stack, incluyendo programación frontend y backend,  bases de datos, y despliegue de aplicaciones.<br>
+                             • Desarrollo con PHP, Java, JavaScript y HTML/CSS<br>
+                             • Frameworks como Laravel y Angular <br>
+                             • Diseño y gestión de bases de datos relacionales <br>
+                             • Metodologías Ágiles como Scrum o Kanban <br>
+                             • Control de versiones con Git y GitHub <br>
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot education-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Bachillerato de Ciencias y Tecnología</h3>
+                            <span class="timeline-date">2021 - 2023</span>
+                        </div>
+                        <h4>IES Martínez Montañés</h4>
+                        <p>
+                            Formación científica con especialización en tecnología y matemáticas. 
+                            Asignaturas principales: Física, Dibujo Técnico, Matemáticas, Tecnología, Informática.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot education-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <h3>Certificaciones y Cursos Adicionales</h3>
+                            <span class="timeline-date">2023 - Presente</span>
+                        </div>
+                        <h4>Formación Continua</h4>
+                        <p>
+                            • Curso Avanzado de Angular y Laravel<br>
+                            • Curso de Kotlin y TypeScript<br>
+                            • Curso de Git y Control de Versiones<br>
+                            • Formación en Python desde cero
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto</h2>
+                <div class="section-line"></div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>¿Hablamos?</h3>
+                    <p>
+                        Si tienes un proyecto interesante, una oportunidad laboral o simplemente quieres saludar, 
+                        no dudes en contactarme. Siempre estoy abierto a nuevas colaboraciones.
+                    </p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:miguelhfdez@gmail.com">miguelhfdez@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Teléfono</h4>
+                                <a href="tel:+34644723841">+34 644 72 38 41</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Ubicación</h4>
+                                <span>Sevilla, España</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://github.com/mherferd" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/miguel-hernández-fernández-3121a1348" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+                
+               
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Miguel Hernández Fernández. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
